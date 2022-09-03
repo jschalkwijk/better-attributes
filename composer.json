@@ -1,0 +1,36 @@
+{
+    "name": "jornschalkwijk/better-attributes",
+    "description": "Providing a simpler way for using PHP Attributes on your classes",
+    "keywords": [
+        "attributes",
+        "php attributes",
+        "better attributes",
+        "Better Attributes",
+        "BetterAttributes",
+        "jorn schalkwijk",
+        "jornschalkwijk",
+        "jschalkwijk"
+    ],
+    "license": "MIT",
+    "version": "0.0.1",
+    "authors": [
+        {
+            "name": "Jorn Schalkwijk",
+            "email": "jornschalkwijk@gmail.com",
+            "homepage": "https://github.com/jschalkwijk"
+        }
+    ],
+    "require": {
+        "php": "^8.1"
+    },
+      "autoload": {
+        "psr-4": {
+            "JornSchalkwijk\\BetterAttributes\\": "src/BetterAttributes"
+        }
+    },
+    "config": {
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "minimum-stability": "dev"
+}
